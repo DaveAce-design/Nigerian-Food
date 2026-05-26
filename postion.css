@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.parent_container {
+    width: 100%;
+}
+.parent_container .best{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: white;
+}
+.parent_container .phrase{
+    color: #aaaa;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+   background: linear-gradient(to bottom right, rgba(5, 0, 26, 1) 0%, rgba(19, 0, 48, 1) 35%, rgba(42, 0, 96, 1) 65%, rgba(26, 10, 0, 1) 100%);
+}
+.container {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000;
+}
+.box img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box h2 {
+    padding: 20px 20px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+.box p {
+    padding: 0px 20px;
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+.box h3 {
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;  
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -4%;
+    top: -5%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    box-shadow: 1px 1px 5px black;
+}
+.box button {
+    margin: 30px 20px 0px 20px;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    color: white;
+    width: 89%;
+    border-radius: 5px;
+    border: none;
+    transition: .3s ease-out;
+    box-shadow: 1px 1px 2px rgb(110, 110, 110);
+    font-weight: bold;
+}
+.box button:hover {
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.logo-container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    position: sticky;
+    bottom: 10%;
+    right: 0%;
+    animation-name: whatsapp;
+    animation-duration: .6s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+@keyframes whatsapp {
+    from {bottom: 10%;}
+    to {bottom: 11%;}
+}
