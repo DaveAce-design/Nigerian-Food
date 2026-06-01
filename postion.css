@@ -10,6 +10,8 @@
     font-size: 2.5rem;
     letter-spacing: 1px;
     color: white;
+    padding-bottom: 5px;
+    padding-top: 25px;
 }
 .parent_container .phrase{
     color: #aaaa;
@@ -116,7 +118,7 @@ body{
 
 @media (max-width: 769px){
     .box {
-    width:100%;
+    width:90%;
     height: 480px;
 }
 
@@ -130,4 +132,5 @@ body{
 .best{
     font-family: sans-serif;
 }
+
 }
